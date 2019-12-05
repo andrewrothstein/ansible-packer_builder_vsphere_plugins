@@ -33,7 +33,7 @@ galaxy_info:
 
 dependencies:
   - role: andrewrothstein.packer_plugin
-    version: v2.0.0
+    version: v3.0.0
     packer_plugin_name: builder-vsphere-iso
     packer_plugin_ver: v2.3
     packer_plugin_mirror: https://github.com/jetbrains-infra/packer-builder-vsphere/releases/download
@@ -46,7 +46,7 @@ dependencies:
         # https://github.com/jetbrains-infra/packer-builder-vsphere/releases/download/v2.3/packer-builder-vsphere-iso.macos
         macos: sha256:5a435c0d83ec6f9aa85948b8da006b35ebb3b91b9647795c47819f1c7100091e
   - role: andrewrothstein.packer_plugin
-    version: v2.0.0
+    version: v3.0.0
     packer_plugin_name: builder-vsphere-clone
     packer_plugin_ver: v2.3
     packer_plugin_mirror: https://github.com/jetbrains-infra/packer-builder-vsphere/releases/download
