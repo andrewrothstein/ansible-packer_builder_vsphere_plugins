@@ -1,4 +1,9 @@
 ---
 - hosts: all
   roles:
-  - role: '{{ playbook_dir }}'
+    - role: '{{ playbook_dir }}'
+- hosts: all
+  roles:
+    - role: '{{ playbook_dir }}'
+      packer_plugin_escalate: True
+      packer_plugin_install_dir: /usr/local/packer
